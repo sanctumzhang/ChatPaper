@@ -4,37 +4,25 @@
 </div>
 </br>
 
-💥💥💥<strong> 7.9号，师弟[red-tie](https://github.com/red-tie)在[auto-draft](https://github.com/CCCBora/auto-draft)的基础上，优化了一款[一键文献综述](https://github.com/kaixindelele/ChatPaper/tree/main/auto_survey)的功能。
 
-适用于大家对具体某个领域快速掌握，并且支持直接生成中文文献调研报告。文件配置简单，欢迎大家使用和反馈！
-
+💥💥💥<strong>7.21 仓库的文件做了一个整理，可能会有些路径和bug，正在修复中。
+并且，我本地更新了全文总结的脚本，以及本地PDF全文翻译的脚本，正在考虑是否开源。
  </strong>
 
-💥💥💥<strong> 7.5号，昨天我做了一个新的小玩具：[ChatSensitiveWords](https://github.com/kaixindelele/ChatSensitiveWords)，利用LLM+敏感词库，来自动判别是否涉及敏感词。
+<details><summary><code><b>历史重大更新</b></code></summary>
 
-已经在学术版GPT网页端上线，欢迎LLM的开发者一起完善这个工作。
+- 🌟*2023.07.09*: 师弟[red-tie](https://github.com/red-tie)在[auto-draft](https://github.com/CCCBora/auto-draft)的基础上，优化了一款[一键文献综述](https://github.com/kaixindelele/ChatPaper/tree/main/auto_survey)的功能. 适用于大家对具体某个领域快速掌握，并且支持直接生成中文文献调研报告。文件配置简单，欢迎大家使用和反馈！
+- 🌟*2023.07.05*: 昨天我做了一个新的小玩具：[ChatSensitiveWords](https://github.com/kaixindelele/ChatSensitiveWords)，利用LLM+敏感词库，来自动判别是否涉及敏感词。已经在学术版GPT网页端上线，欢迎LLM的开发者一起完善这个工作。
+- 🌟*2023.04.30*: **唯一官方网站：**[https://chatpaper.org/](https://chatpaper.org/) ，以及小白教程【ChatPaper网页版使用小白教程-哔哩哔哩】 https://b23.tv/HpDkcBU， 第三方文档：https://chatpaper.readthedocs.io . 
+- 🌟*2023.04.22*: 为了庆祝ChatPaper获得一万⭐，我们将联合两位同学，推出两个AI辅助文献总结工具，第一个是[auto-draft](https://github.com/CCCBora/auto-draft)，AI自动搜集整理出文献总结！
+- 🌟*2023.04.17*: 为了降低学术伦理风险，我们为Chat_Reviewer增加了复杂的文字注入，效果如图：[示例图](https://github.com/kaixindelele/ChatPaper/blob/main/images/reviews.jpg) ，希望各位老师同学在使用的时候，一定要注意学术伦理和学术声誉，不要滥用工具。如果谁有更好的方法来限制少数人的不规范使用，欢迎留言，为科研界做一份贡献。
+- 🌟*2023.03.31*: 目前已经离线总结了3w+的CCF-A会议论文了，以后大家可以不用等那么久了！
+- 🌟*2023.03.28*: 荣胜同学今天发布了一个非常有意思的工作[ChatGenTitle](https://github.com/WangRongsheng/ChatGenTitle)，提供摘要生成标题，基于220wArXiv论文的数据微调的结果！
+- 🌟*2023.03.23*: chat_arxiv.py可以从arxiv网站，根据关键词，最近几天，几篇论文，直接爬取最新的领域论文了！解决了之前arxiv包的搜索不准确问题！
+- 🌟*2023.03.23*: ChatPaper终于成为完成体了！现在已经有论文总结+论文润色+论文分析与改进建议+论文审稿回复等功能了！
 
- </strong>
 
-💥💥💥<strong>5.10 我们网页版的即将进行更新，现在的总结效果如链接所示：[Sergey Levine近两个月12篇文章总结-ChatPaperDaily6](https://zhuanlan.zhihu.com/p/628338077)，总结的内容更加全面且准确，更多的细节，更多的步骤，更多实验结果，且尽可能的降低瞎编. 
- </strong>
-
-💥💥💥<strong>**唯一官方网站：**[https://chatpaper.org/](https://chatpaper.org/) ，以及小白教程【ChatPaper网页版使用小白教程-哔哩哔哩】 https://b23.tv/HpDkcBU， 第三方文档：https://chatpaper.readthedocs.io . 
- </strong>
- 
-💥💥💥<strong> 4.22 为了庆祝ChatPaper获得一万⭐，我们将联合两位同学，推出两个AI辅助文献总结工具，第一个是[auto-draft](https://github.com/CCCBora/auto-draft)，AI自动搜集整理出文献总结！第二个是综述文章归纳，后面会上线我们网页版。敬请期待
-</strong>
-
-💥💥💥<strong> 为了降低学术伦理风险，我们为Chat_Reviewer增加了复杂的文字注入，效果如图：[示例图](https://github.com/kaixindelele/ChatPaper/blob/main/images/reviews.jpg) ，希望各位老师同学在使用的时候，一定要注意学术伦理和学术声誉，不要滥用工具。如果谁有更好的方法来限制少数人的不规范使用，欢迎留言，为科研界做一份贡献。
-</strong>
-
-💥💥💥<strong> 最近在开源众筹一个基于OpenReview的微调项目，欢迎大家一起搞事情：[ChatOpenReview](https://github.com/kaixindelele/ChatOpenReview)
-  
-</strong>
-
-🌿🌿🌿<strong>使用卡顿？请Fork到自己的Space，轻松使用：<a href="https://huggingface.co/spaces/wangrongsheng/ChatPaper?duplicate=true"><img src="https://bit.ly/3gLdBN6" alt="Duplicate Space"></a></strong>
-
-💥💥💥<strong>荣胜同学今天发布了一个非常有意思的工作[ChatGenTitle](https://github.com/WangRongsheng/ChatGenTitle)，提供摘要生成标题，基于220wArXiv论文的数据微调的结果！ </strong>
+</details>
 
 <h1 align="center">ChatPaper</h1>
 <div align="center">
@@ -93,13 +81,22 @@
 
 
 ## 最新讯息
+- 🌟*2023.07.09*: 师弟[red-tie](https://github.com/red-tie)在[auto-draft](https://github.com/CCCBora/auto-draft)的基础上，优化了一款[一键文献综述](https://github.com/kaixindelele/ChatPaper/tree/main/auto_survey)的功能. 适用于大家对具体某个领域快速掌握，并且支持直接生成中文文献调研报告。文件配置简单，欢迎大家使用和反馈！
+- 🌟*2023.07.05*: 昨天我做了一个新的小玩具：[ChatSensitiveWords](https://github.com/kaixindelele/ChatSensitiveWords)，利用LLM+敏感词库，来自动判别是否涉及敏感词。已经在学术版GPT网页端上线，欢迎LLM的开发者一起完善这个工作。
+- 🌟*2023.04.30*: **唯一官方网站：**[https://chatpaper.org/](https://chatpaper.org/) ，以及小白教程【ChatPaper网页版使用小白教程-哔哩哔哩】 https://b23.tv/HpDkcBU， 第三方文档：https://chatpaper.readthedocs.io . 
+- 🌟*2023.04.22*: 为了庆祝ChatPaper获得一万⭐，我们将联合两位同学，推出两个AI辅助文献总结工具，第一个是[auto-draft](https://github.com/CCCBora/auto-draft)，AI自动搜集整理出文献总结！
+- 🌟*2023.04.17*: 为了降低学术伦理风险，我们为Chat_Reviewer增加了复杂的文字注入，效果如图：[示例图](https://github.com/kaixindelele/ChatPaper/blob/main/images/reviews.jpg) ，希望各位老师同学在使用的时候，一定要注意学术伦理和学术声誉，不要滥用工具。如果谁有更好的方法来限制少数人的不规范使用，欢迎留言，为科研界做一份贡献。
 - 🌟*2023.03.31*: 目前已经离线总结了3w+的CCF-A会议论文了，以后大家可以不用等那么久了！
+- 🌟*2023.03.28*: 荣胜同学今天发布了一个非常有意思的工作[ChatGenTitle](https://github.com/WangRongsheng/ChatGenTitle)，提供摘要生成标题，基于220wArXiv论文的数据微调的结果！
 - 🌟*2023.03.23*: chat_arxiv.py可以从arxiv网站，根据关键词，最近几天，几篇论文，直接爬取最新的领域论文了！解决了之前arxiv包的搜索不准确问题！
 - 🌟*2023.03.23*: ChatPaper终于成为完成体了！现在已经有论文总结+论文润色+论文分析与改进建议+论文审稿回复等功能了！
 
-**增加了ChatReviewer（对论文进行优缺点分析，提出改进建议，⭐️千万别复制生成的内容用于论文评审！一定要注意审稿伦理和责任！该功能仅供大家作为参考！）和ChatResponse（自动提取审稿人的问题并一对一生成回复），该部分的代码均来自于[nishiwen1214](https://github.com/nishiwen1214)的[ChatReviewer](https://github.com/nishiwen1214/ChatReviewer)项目。** 使用技巧请参考这位大佬的项目！
 
 ## 开发动机
+
+
+<details><summary><code><b>开发动机细节</b></code></summary>
+
 
 面对每天海量的arxiv论文，以及AI极速的进化，我们人类必须也要一起进化才能不被淘汰。
 
@@ -115,13 +112,12 @@ ChatPaper是一款论文总结工具。AI用一分钟总结论文，用户用一
 
 一般一个晚上就可以速通一个小领域的最新文章。我自己测试了两天了。
 
+</details>
+
+
 祝大家在这个极速变化的时代中，能够和AI一起进化！
 
-这段代码虽然不多，但整个流程走通也花了我近一周的时间，今天分享给大家。
-
-如果您能提供一瓶阔乐的赞助，就可以帮助支付网页运营的API和服务器成本，并让我们有动力继续开发更多更高质量的服务！
-
-目前我们网站运营费用每天都有60美元的API消耗，如果您有意向对我们的项目进行赞助，我们将不胜感激，并期待与您的合作！
+欢迎大家的赞助，以帮助支付网页运营的API和服务器成本，并让我们有动力继续开发更多更高质量的服务！
 
 您的支持，是我持续更新的动力和赞赏！
 
@@ -132,6 +128,9 @@ ChatPaper是一款论文总结工具。AI用一分钟总结论文，用户用一
 欢迎大家加入光荣的进化！
 
 ## 技术原理：
+
+
+<details><summary><code><b>技术原理细节</b></code></summary>
 
 论文总结遵循下面四个问题：
 
@@ -155,6 +154,8 @@ ChatPaper是一款论文总结工具。AI用一分钟总结论文，用户用一
 分三次总结和喂入，如果每个部分超过了长度，则截断（目前这个方案太粗暴了，但也没有更好的更优雅的方案）
 
 作为初筛，勉强够用。
+
+</details>
 
 
 ## 使用步骤
@@ -239,8 +240,6 @@ python google_scholar_spider.py --kw "deep learning" --nresults 30 --csvpath "./
 教程文章：https://zhuanlan.zhihu.com/p/644326031
 
 
-
-
 ---
 
 另外注意，目前这个不支持**综述类**文章。
@@ -277,6 +276,10 @@ parser.add_argument("--file_format", type=str, default='md', help="导出的文�
 ```
 
 ### 二、 以Flask服务运行
+
+<details><summary><code><b>Flask配置教程</b></code></summary>
+
+注意：更新版本后，可能有路径的报错
 
 1. 下载项目并进入项目目录
 
@@ -317,9 +320,15 @@ python3 app.py
 
 + 特别的，这四个接口实际是封装了根目录下四个脚本的 web 界面。参数可以通过链接来修改。例如要运行“arxiv?query=GPT-4&key_word=GPT+robot&page_num=1&max_results=1&days=1&sort=web&save_image=False&file_format=md&language=zh”的话，相当于在根目录下调用 chat_arxiv.py 并返回结果。这个显示的结果和在命令行中调用的结果是一样的（即：python chat_arxiv.py --query "GPT-4" --key_word "GPT robot" --page_num 1 --max_results 1 --days 1 --sort "web" --save_image False --file_format "md" --language "zh"）。您可以通过修改参数来获得其他搜索结果。
 
-  如果以这种方式部署的话，结果会保存在同级目录下新生成的export、pdf_files 和response_file三个文件夹里
+如果以这种方式部署的话，结果会保存在同级目录下新生成的export、pdf_files 和response_file三个文件夹里
+
+</details>
 
 ### 三、以docker形式运行
+
+<details><summary><code><b>Docker配置教程细节</b></code></summary>
+
+注意：Docker的路径也被我打乱了，很可能存在问题，不推荐尝试。
 
 1. 安装docker和docker-compose，可以参考以下链接
 
@@ -341,11 +350,14 @@ python3 app.py
 
 + 所有的运行结果都被保存在 Docker 的 volumes 中，如果想以服务的形式长期部署，您可以将这些目录映射出来。默认情况下，它们位于 /var/lib/docker/volumes/ 下。您可以进入该目录并查看 chatpaper_log、chatpaper_export、chatpaper_pdf_files 和 chatpaper_response_file 四个相关文件夹中的结果。有关 Docker volumes 的详细解释，请参考此链接：http://docker.baoshu.red/data_management/volume.html。
 
-  
-  
-  
+</details>
+    
+## HuggingFace在线部署
 
-## 在线部署
+<details><summary><code><b>HuggingFace在线部署细节</b></code></summary>
+
+注意：这部分也是一样，功能暂时被废掉了，建议大家直接使用chatwithpaper.org的网页版。
+
 
 1. 在[Hugging Face](https://huggingface.co/) 创建自己的个人账号并登录；
 2. 进入ChatPaper主仓库：[https://huggingface.co/spaces/wangrongsheng/ChatPaper](https://huggingface.co/spaces/wangrongsheng/ChatPaper) ，您可以在[Files and Version](https://huggingface.co/spaces/wangrongsheng/ChatPaper/tree/main) 看到所有的最新部署代码；
@@ -354,9 +366,12 @@ python3 app.py
 
 > 注：公有化部署和私有化部署根据你的需求二选一即可！
 
+</details>
+
 ## 解析示例
 
-<details><summary><code>查看解析结果</code></summary>
+<details><summary><code><b>查看解析结果</b></code></summary>
+
 <h2>Paper:1</h2>
 <ol>
 <li>
