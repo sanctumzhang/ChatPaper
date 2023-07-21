@@ -5,12 +5,14 @@
 </br>
 
 
-💥💥💥<strong>7.21 仓库的文件做了一个整理，可能会有些路径和bug，正在修复中。
-并且，我本地更新了全文总结的脚本，以及本地PDF全文翻译的脚本，正在考虑是否开源。
+💥💥💥<strong>7.22 仓库的文件做了一个整理，可能会有些路径和bug，正在修复中。
+增加全新的本地PDF全文翻译功能！
  </strong>
 
 <details><summary><code><b>历史重大更新</b></code></summary>
 
+- 🌟*2023.07.22*: 增加全新的本地PDF全文翻译功能！
+- 🌟*2023.07.21*: 仓库的文件做了一个整理，可能会有些路径和bug，正在修复中。
 - 🌟*2023.07.09*: 师弟[red-tie](https://github.com/red-tie)在[auto-draft](https://github.com/CCCBora/auto-draft)的基础上，优化了一款[一键文献综述](https://github.com/kaixindelele/ChatPaper/tree/main/auto_survey)的功能. 适用于大家对具体某个领域快速掌握，并且支持直接生成中文文献调研报告。文件配置简单，欢迎大家使用和反馈！
 - 🌟*2023.07.05*: 昨天我做了一个新的小玩具：[ChatSensitiveWords](https://github.com/kaixindelele/ChatSensitiveWords)，利用LLM+敏感词库，来自动判别是否涉及敏感词。已经在学术版GPT网页端上线，欢迎LLM的开发者一起完善这个工作。
 - 🌟*2023.04.30*: **唯一官方网站：**[https://chatpaper.org/](https://chatpaper.org/) ，以及小白教程【ChatPaper网页版使用小白教程-哔哩哔哩】 https://b23.tv/HpDkcBU， 第三方文档：https://chatpaper.readthedocs.io . 
@@ -27,7 +29,7 @@
 <h1 align="center">ChatPaper</h1>
 <div align="center">
   <a href="https://github.com/kaixindelele/ChatPaper">
-  <img src="https://github.com/kaixindelele/ChatPaper/blob/main/images/homeLogo.jpg" width="50%">
+  <img src="https://github.com/kaixindelele/ChatPaper/blob/main/images/homeLogo.jpg" width="25%">
   </a>
 
   <p align="center">
@@ -69,7 +71,7 @@
 
 - [💥最新讯息](#最新讯息)
 - [💫开发动机](#开发动机)
-- [⛏️使用步骤](#使用步骤)
+- [⛏️配置教程](#配置教程)
 - [👷‍♂️在线部署](#在线部署)
 - [📄解析示例](#解析示例)
 - [👁️‍🗨️使用技巧](#使用技巧)
@@ -81,6 +83,8 @@
 
 
 ## 最新讯息
+- 🌟*2023.07.22*: 增加全新的本地PDF全文翻译功能！
+- 🌟*2023.07.21*: 仓库的文件做了一个整理，可能会有些路径和bug，正在修复中。
 - 🌟*2023.07.09*: 师弟[red-tie](https://github.com/red-tie)在[auto-draft](https://github.com/CCCBora/auto-draft)的基础上，优化了一款[一键文献综述](https://github.com/kaixindelele/ChatPaper/tree/main/auto_survey)的功能. 适用于大家对具体某个领域快速掌握，并且支持直接生成中文文献调研报告。文件配置简单，欢迎大家使用和反馈！
 - 🌟*2023.07.05*: 昨天我做了一个新的小玩具：[ChatSensitiveWords](https://github.com/kaixindelele/ChatSensitiveWords)，利用LLM+敏感词库，来自动判别是否涉及敏感词。已经在学术版GPT网页端上线，欢迎LLM的开发者一起完善这个工作。
 - 🌟*2023.04.30*: **唯一官方网站：**[https://chatpaper.org/](https://chatpaper.org/) ，以及小白教程【ChatPaper网页版使用小白教程-哔哩哔哩】 https://b23.tv/HpDkcBU， 第三方文档：https://chatpaper.readthedocs.io . 
@@ -158,7 +162,10 @@ ChatPaper是一款论文总结工具。AI用一分钟总结论文，用户用一
 </details>
 
 
-## 使用步骤
+## 配置教程
+
+<details><summary><code><b>配置教程细节</b></code></summary>
+
 
 ### 一、以脚本方式运行
 
@@ -275,6 +282,10 @@ parser.add_argument("--save_image", default=False, help="save image? It takes a 
 parser.add_argument("--file_format", type=str, default='md', help="导出的文件格式，如果存图片的话，最好是md，如果不是的话，txt的不会乱")
 ```
 
+
+</details>
+
+
 ### 二、 以Flask服务运行
 
 <details><summary><code><b>Flask配置教程</b></code></summary>
@@ -368,9 +379,9 @@ python3 app.py
 
 </details>
 
-## 解析示例
+## 全文总结示例
 
-<details><summary><code><b>查看解析结果</b></code></summary>
+<details><summary><code><b>查看全文总结结果</b></code></summary>
 
 <h2>Paper:1</h2>
 <ol>
